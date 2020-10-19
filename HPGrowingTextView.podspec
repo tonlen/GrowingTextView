@@ -8,6 +8,6 @@ Pod::Spec.new do |s|
   s.author       = { "Hans Pinckaers" => "hans.pinckaers@gmail.com" }
   s.source       = { :git => "https://github.com/HansPinckaers/GrowingTextView.git", :tag => s.version.to_s }
   s.platform     = :ios
-  s.source_files = 'Classes', 'class/**/*.{h,m}'
+  s.source_files = 'Sources//**/*.{h,m}'
   s.requires_arc = true
 end
